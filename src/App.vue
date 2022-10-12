@@ -7,7 +7,6 @@
     <router-view/>
   </div>
 </template>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -29,4 +28,10 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+</style>
+<style lang="scss">
+@import '../node_modules/cpsi-ds/src/assets/scss/main.scss';
+@import '../node_modules/cpsi-ds/src/assets/scss/_indents.scss';
+@import '../node_modules/cpsi-ds/src/assets/css/reset.css';
+
 </style>
